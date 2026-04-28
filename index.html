@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Certificate Verification</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background: #f2eef5;
+    text-align: center;
+    margin: 0;
+}
+
+.container {
+    background: white;
+    width: 90%;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.check-circle {
+    width: 150px;
+    height: 150px;
+    background: #4CAF50;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    position: relative;
+}
+
+.check-circle::after {
+    content: "✔";
+    color: white;
+    font-size: 80px;
+    position: absolute;
+    top: 20px;
+    left: 45px;
+}
+
+.status {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.verified {
+    background: #2e7d32;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+hr {
+    margin: 20px 0;
+}
+
+.info {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.course {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+    display: inline-block;
+}
+
+.btn-blue {
+    background: #1976d2;
+}
+
+.btn-grey {
+    background: grey;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="check-circle"></div>
+
+    <div class="status">
+        Status - <span class="verified">Verified</span>
+    </div>
+
+    <hr>
+
+    <div class="info">
+        <p><b>Name :</b> Aman Acharya </p>
+        <p><b>Phone Number :</b> 7077664424</p>
+        <p><b>Email :</b> amanacharya084@gmail.com</p>
+
+        <p style="font-style: italic;">has successfully completed</p>
+
+        <div class="course">
+            PYTHON Full Stack Web Development
+        </div>
+    </div>
+
+    <div class="buttons">
+        <a href="#" class="btn btn-blue">www.techzex.com</a>
+        <a href="#" class="btn btn-grey">Call Now</a>
+    </div>
+
+</div>
+
+</body>
+</html>
